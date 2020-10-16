@@ -169,17 +169,38 @@
   ```
   > clona o repositório centralizado com uma branch especifica e trás toda estrutura para uma pasta local especificada.
 
+* ## git merge
+  ```
+  git merge <branch local>
+  ```
+  > une as alterações em uma branch local à branch atual.
+
 * ## git notes
 
   * ### list
+    ```
+    git notes list
+    ```
 
   * ### add
+    ```
+    git notes add -m <mensagem> <hash>
+    ```
 
   * ### append
+    ```
+    git notes append -m <mensagem> <hash>
+    ```
 
   * ### remove
+    ```
+    git notes remove <hash>
+    ```
 
   * ### show
+    ```
+    git notes show <hash>
+    ```
 
 * ## git restore
   ```
